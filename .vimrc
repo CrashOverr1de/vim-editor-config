@@ -20,6 +20,7 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'base16_gruvbox_dark_hard'
 
+"set guifont=D2Coding:h12:cHANGEUL:qDRAFT
 set incsearch
 set hlsearch
 set number
@@ -40,5 +41,8 @@ set background=dark
 "colorscheme jellybeans
 colorscheme gruvbox
 set t_Co=256
+"set lines=30 columns=100
+"set fileencodings=utf-8,cp949
+"set encoding=utf-8
 
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
