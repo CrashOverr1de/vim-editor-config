@@ -7,6 +7,8 @@ Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
+let mapleader = ","
+
 nmap <C-n> :NERDTreeToggle<CR>
 nmap <leader>T :enew<CR>
 nmap <leader>bn :bn<CR>
